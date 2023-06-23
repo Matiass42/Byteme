@@ -1,0 +1,36 @@
+.maincontainer{
+  display: flex;
+  max-width: 35vw;
+  background-color: #042940;
+  flex-direction: column;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sidebarcontainer{
+    position: fixed;
+    height: 100%;
+    
+    background-color: #042940;
+    z-index: 2;
+    display: flex;
+  flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  
+  .sidebarcontainer a {
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+  }
+
+  .sidebarcontainer a:hover{
+    background-color: #154563;
+  }
